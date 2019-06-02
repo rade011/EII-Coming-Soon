@@ -1,0 +1,25 @@
+{
+  "name": "education-improvement-institute",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "http://eii.edu.eu",
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "prettier": "^1.17.1",
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-addons-css-transition-group": "^15.4.2",
+    "recompose": "0.22.0",
+    "styled-components": "^1.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}
